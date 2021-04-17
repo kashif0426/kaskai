@@ -1,0 +1,88 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  height: 500px;
+  width: 700px;
+  background-color: #f2f2f2;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+.left,
+.right {
+  height: 100%;
+  width: 50%;
+  border: 2px solid black;
+}
+
+.left h3 {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.left p {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.left h1 {
+  text-align: center;
+  margin-top: 60px;
+}
+.left {
+  background-image: url("./image/bluefond.jpg");
+}
+
+.left h2 {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.right {
+  text-align: center;
+}
+
+.right h2,
+p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.right,
+h3 {
+  margin-top: 10px;
+}
+
+.button {
+  background: blue;
+  border-radius: 30px;
+  padding: 5px;
+  width: 180px;
+  margin: 0 auto;
+}
+
+.button:hover {
+  background: chartreuse;
+}
+
+nav {
+  display: flex;
+}
+
+.shjjsu {
+  margin-left: 5px;
+}
+
+nav,
+input {
+  margin-top: 10px;
+}
