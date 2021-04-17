@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>css grid</title>
+
+    <style>
+.wrapper{
+  display: grid;
+  grid-template-columns:70% 30%;
+  /*
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+*/
+  grid-gap: 1em;
+}
+
+      .wrapper > div {
+        background: #eee;
+        padding: 1em;
+      }
+
+      .wrapper > div:nth-child(odd) {
+        background: #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis illo
+      voluptatem mollitia aliquam. Explicabo, quibusdam molestias consequuntur
+      beatae dolorem rem placeat cum magni rerum error, expedita earum. At illum
+      ducimus dolorem dolor tempore necessitatibus eius autem! Voluptates aut
+      consectetur tempora dolore repellendus iusto dolor, aperiam ipsum possimus
+      sunt commodi libero voluptatum suscipit numquam culpa, asperiores at
+      veritatis delectus dicta unde temporibus? Sunt doloribus soluta aut,
+      nostrum ipsa repudiandae commodi voluptas et aperiam vel possimus quas
+      minus hic quibusdam atque dignissimos?
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+      aspernatur, labore cupiditate architecto quo sunt hic, sapiente tenetur
+      neque odit veniam maxime non alias reprehenderit quod fugit rem nemo
+      debitis.
+    </div>
+
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis illo
+      voluptatem mollitia aliquam. Explicabo, quibusdam molestias consequuntur
+      beatae dolorem rem placeat cum magni rerum error, expedita earum. At illum
+      ducimus dolorem dolor tempore necessitatibus eius autem! Voluptates aut
+      consectetur tempora dolore repellendus iusto dolor, aperiam ipsum possimus
+      sunt commodi libero voluptatum suscipit numquam culpa, asperiores at
+      veritatis delectus dicta unde temporibus? Sunt doloribus soluta aut,
+      nostrum ipsa repudiandae commodi voluptas et aperiam vel possimus quas
+      minus hic quibusdam atque dignissimos?
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+      aspernatur, labore cupiditate architecto quo sunt hic, sapiente tenetur
+      neque odit veniam maxime non alias reprehenderit quod fugit rem nemo
+      debitis.
+    </div>
+  </body>
+</html>
